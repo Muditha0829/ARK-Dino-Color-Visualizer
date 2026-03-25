@@ -1,0 +1,59 @@
+{
+  "name": "ark-dino-visualizer",
+  "version": "1.0.0",
+  "description": "ARK Survival Ascended Dino Color Visualizer",
+  "main": "electron/main.js",
+  "scripts": {
+    "start":           "electron .",
+    "build:frontend":  "npm --prefix frontend run build",
+    "build":           "npm run build:frontend && electron-builder --win",
+    "pack":            "npm run build:frontend && electron-builder --win --dir"
+  },
+  "dependencies": {
+    "axios":     "^1.7.2",
+    "chokidar":  "^3.6.0",
+    "cors":      "^2.8.5",
+    "express":   "^4.19.2",
+    "jimp":      "^0.22.12",
+    "ws":        "^8.17.1"
+  },
+  "devDependencies": {
+    "electron":         "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId":       "com.arkdino.visualizer",
+    "productName": "ARK Dino Color Visualizer",
+    "copyright":   "Copyright © 2026",
+    "directories": {
+      "output": "dist-electron"
+    },
+    "files": [
+      "electron/**/*",
+      "backend/**/*",
+      "!backend/node_modules/**/*",
+      "frontend/dist/**/*",
+      "node_modules/**/*",
+      "!node_modules/electron/**/*",
+      "!node_modules/electron-builder/**/*"
+    ],
+    "extraResources": [
+      { "from": "cache", "to": "cache" },
+      { "from": "db",    "to": "db"    }
+    ],
+    "win": {
+      "target": [{ "target": "nsis", "arch": ["x64"] }],
+      "icon": "electron/icon.ico",
+      "artifactName": "ARK-Dino-Visualizer-Setup-${version}.exe",
+      "sign": null,
+      "signDlls": false
+    },
+    "nsis": {
+      "oneClick":         false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "ARK Dino Visualizer"
+    }
+  }
+}

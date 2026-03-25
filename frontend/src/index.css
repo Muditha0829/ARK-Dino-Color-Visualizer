@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background-color: #0d0f1a;
+  color: #e2e8f0;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ── Scrollbar ─────────────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #2d3456; border-radius: 99px; }
+::-webkit-scrollbar-thumb:hover { background: #4f80ff; }
+
+/* ── Map badge colors ───────────────────────────────────────────────────── */
+.map-island      { background: rgba(26,92,42,0.8);  color: #7edc9a; border: 1px solid #2a7a40; }
+.map-scorched    { background: rgba(92,46,26,0.8);  color: #dcaa7e; border: 1px solid #8a4020; }
+.map-aberration  { background: rgba(42,26,92,0.8);  color: #9a7edc; border: 1px solid #3a2080; }
+.map-extinction  { background: rgba(61,61,26,0.8);  color: #d4dc7e; border: 1px solid #5a5a20; }
+.map-center      { background: rgba(26,61,92,0.8);  color: #7eb8dc; border: 1px solid #205080; }
+.map-fjordur     { background: rgba(26,46,92,0.8);  color: #7e9edc; border: 1px solid #203880; }
+.map-ragnarok    { background: rgba(92,26,26,0.8);  color: #dc7e7e; border: 1px solid #802020; }
+.map-crystal     { background: rgba(26,79,92,0.8);  color: #7ed4dc; border: 1px solid #206878; }
+.map-colony      { background: rgba(61,26,92,0.8);  color: #b47edc; border: 1px solid #501880; }
+.map-default     { background: rgba(40,45,60,0.8);  color: #94a3b8; border: 1px solid #3d4566; }
+
+/* ── Live dot ───────────────────────────────────────────────────────────── */
+@keyframes pulse-dot { 0%,100%{opacity:1} 50%{opacity:0.3} }
+.live-dot { animation: pulse-dot 2s infinite; }
+
+/* ── Stat bar ───────────────────────────────────────────────────────────── */
+.stat-bar-track {
+  background: #1a1f35;
+  border-radius: 99px;
+  height: 5px;
+  overflow: hidden;
+}
+.stat-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* ── Dino Card ───────────────────────────────────────────────────────────── */
+.dino-card {
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  position: relative;
+}
+.dino-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.6), 0 0 0 1px rgba(79,128,255,0.25);
+}
+.dino-card .delete-btn {
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.dino-card:hover .delete-btn {
+  opacity: 1;
+}
+
+/* ── Modal animation ────────────────────────────────────────────────────── */
+@keyframes modal-in {
+  from { opacity: 0; transform: scale(0.96) translateY(8px); }
+  to   { opacity: 1; transform: scale(1)    translateY(0); }
+}
+.modal-content {
+  animation: modal-in 0.2s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* ── Section divider ────────────────────────────────────────────────────── */
+.section-label {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #4f80ff;
+  margin-bottom: 0.5rem;
+}
+
+/* ── Tooltip arrow helper ────────────────────────────────────────────────── */
+.tooltip-arrow {
+  width: 0;
+  height: 0;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #334155;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* ── Export card base ────────────────────────────────────────────────────── */
+.export-card-root {
+  font-family: "Segoe UI", system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Exporting spinner overlay ───────────────────────────────────────────── */
+@keyframes export-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.5; }
+}
+.export-pulse {
+  animation: export-pulse 1.2s infinite;
+}

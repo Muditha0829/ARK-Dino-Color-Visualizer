@@ -1,0 +1,2898 @@
+{
+  "Archelon": [
+    "Main",
+    "Highlights",
+    null,
+    "Tips",
+    "Belly, Beak & Cracks",
+    null
+  ],
+  "Archelon ASA.Archelon Character BP ASA": [
+    "Main",
+    "Highlights",
+    null,
+    "Tips",
+    "Belly, Beak & Cracks",
+    null
+  ],
+  "Bison": [
+    "Skin",
+    "Fur detail",
+    "Horn tips",
+    "Horn main",
+    "Fur main",
+    "Unknown"
+  ],
+  "Bison.Bison Character BP": [
+    "Rear, Eyes & Hoof Ring",
+    "Fur Highlights",
+    "Horn Tips",
+    "Horn",
+    "Fur Base",
+    null
+  ],
+  "Cat": [
+    "Body fur",
+    "Pattern definition",
+    "Calico",
+    null,
+    "Belly",
+    "Pattern"
+  ],
+  "Cat.Cat Character BP": [
+    "Body fur",
+    "Pattern definition",
+    "Calico",
+    null,
+    "Belly",
+    "Pattern"
+  ],
+  "Cat Ghost": [
+    "Body fur",
+    "Pattern definition",
+    "Calico",
+    null,
+    "Belly",
+    "Pattern"
+  ],
+  "Ghost Cat.Ghost Cat Character BP": [
+    "Body fur",
+    "Pattern definition",
+    "Calico",
+    null,
+    "Belly",
+    "Pattern"
+  ],
+  "Ceratosaurus": [
+    "Stripes+face",
+    "Dark markings",
+    null,
+    "Spines",
+    "Spines",
+    "Body"
+  ],
+  "Ceratosaurus ASA.Ceratosaurus Character BP ASA": [
+    "Accents",
+    null,
+    null,
+    null,
+    "Spikes",
+    "Body"
+  ],
+  "Ceratosaurus Ghost": [
+    "Stripes+face",
+    "Dark markings",
+    null,
+    "Spines",
+    "Spines",
+    "Body"
+  ],
+  "Ghost Ceratosaurus ASA.Ghost Ceratosaurus Character BP ASA": [
+    "Stripes+face",
+    "Dark markings",
+    null,
+    "Spines",
+    "Spines",
+    "Body"
+  ],
+  "Chalk Elemental": [
+    null,
+    "Body",
+    null,
+    null,
+    null,
+    null
+  ],
+  "ChalkGolem.ChalkGolem Character BP": [
+    null,
+    "Body",
+    null,
+    null,
+    null,
+    null
+  ],
+  "Cryolophosaurus": [
+    "Main body",
+    null,
+    "Crest",
+    "Hyperglow",
+    "Hair highlights",
+    "Body accents"
+  ],
+  "Cryolophosaurus.Cryolophosaurus Character BP": [
+    "Main blend 1",
+    null,
+    "Face highlights",
+    "Hyperglow",
+    "Fur",
+    "Main blend 2"
+  ],
+  "Dreadmare": [
+    "Body Main",
+    "Feathers",
+    "Scales",
+    "Feather tips",
+    "Underside",
+    "Back"
+  ],
+  "DarkPegasus.DarkPegasus Character BP": [
+    "Body Main",
+    "Feathers",
+    "Scales",
+    "Feather tips",
+    "Underside",
+    "Back"
+  ],
+  "Deinosuchus": [
+    "Main",
+    null,
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "DeinosuchusASA.DeinosuchusASA Character BP": [
+    "Main",
+    null,
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Deinotherium": [
+    "Main",
+    "Fur",
+    null,
+    null,
+    "Highlights",
+    "Stripes"
+  ],
+  "DeinotheriumASA.DeinotheriumASA Character BP": [
+    "Main",
+    "Fur",
+    null,
+    null,
+    "Highlights",
+    "Stripes"
+  ],
+  "Dreadnoughtus": [
+    "Stripe Outlines",
+    "Secondary Pattern",
+    null,
+    null,
+    "Stripes",
+    "Body Main"
+  ],
+  "Dreadnoughtus.Dreadnoughtus Character BP": [
+    "Stripe Outlines",
+    "Secondary Pattern",
+    null,
+    null,
+    "Stripes",
+    "Body Main"
+  ],
+  "Fasolasuchus": [
+    "Body Main",
+    "Body Spots",
+    "Spikes",
+    null,
+    "Body Rings",
+    "Head/Back Highlights"
+  ],
+  "Fasola.Fasola Character BP": [
+    "Body Main",
+    "Body Spots",
+    "Spikes",
+    null,
+    "Body Rings",
+    "Head/Back Highlights"
+  ],
+  "Aberrant Fasolasuchus": [
+    "Body",
+    "Spots",
+    "Spike tips",
+    "Nothing",
+    "Belly",
+    "Back"
+  ],
+  "Fasola Aberrant.Fasola Character BP Aberrant": [
+    "Body",
+    "Spots",
+    "Spike tips",
+    "Nothing",
+    "Belly",
+    "Back"
+  ],
+  "Pyromane": [
+    null,
+    null,
+    "Main body",
+    "Lava cracks / Flames",
+    null,
+    "Highlights"
+  ],
+  "FireLion.FireLion Character BP": [
+    null,
+    null,
+    "Main body",
+    "Lava cracks / Flames",
+    null,
+    "Highlights"
+  ],
+  "Gigantoraptor Ghost": [
+    "Feathers main",
+    "Wattle",
+    "Wattle pattern",
+    "Accent",
+    "Skin",
+    "Main pattern"
+  ],
+  "Ghost Gigantoraptor.Ghost Gigantoraptor Character BP": [
+    "Feathers main",
+    "Wattle",
+    "Wattle pattern",
+    "Accent",
+    "Skin",
+    "Main pattern"
+  ],
+  "Gigantoraptor": [
+    "Feathers main",
+    "Wattle",
+    "Wattle pattern",
+    "Accent",
+    "Skin",
+    "Main pattern"
+  ],
+  "Gigantoraptor.Gigantoraptor Character BP": [
+    "Feathers main",
+    "Wattle",
+    "Wattle pattern",
+    "Accent",
+    "Skin",
+    "Main pattern"
+  ],
+  "Aberrant Gigantoraptor": [
+    "Feathers main",
+    "Wattle",
+    "Wattle pattern",
+    "Accent",
+    "Skin",
+    "Main pattern"
+  ],
+  "Gigantoraptor Aberrant.Gigantoraptor Character BP Aberrant": [
+    "Feathers main",
+    "Wattle",
+    "Wattle pattern",
+    "Accent",
+    "Skin",
+    "Main pattern"
+  ],
+  "Grand Tortugar": [
+    "Shell main",
+    null,
+    "Leg scales",
+    "Emissive",
+    "Soft belly",
+    "Shell accent"
+  ],
+  "GrandTortugar.GrandTortugar Character BP": [
+    "Shell main",
+    null,
+    "Leg scales",
+    "Emissive",
+    "Soft belly",
+    "Shell accent"
+  ],
+  "Helicoprion": [
+    "Main",
+    null,
+    null,
+    null,
+    "Belly",
+    "Spots"
+  ],
+  "Helicoprion.Helicoprion Character BP": [
+    "Main",
+    null,
+    null,
+    null,
+    "Belly",
+    "Spots"
+  ],
+  "Ice Elemental": [
+    null,
+    "Body",
+    null,
+    null,
+    null,
+    null
+  ],
+  "IceGolem.IceGolem Character BP": [
+    null,
+    "Body",
+    null,
+    null,
+    null,
+    null
+  ],
+  "Fire Wyvern": [
+    "Back",
+    null,
+    "Belly",
+    "Wings main",
+    "Fins highlight",
+    "Body highlights"
+  ],
+  "Ragnarok Wyvern Override.Ragnarok Wyvern Override": [
+    "Back",
+    null,
+    "Belly",
+    "Wings main",
+    "Fins highlight",
+    "Body highlights"
+  ],
+  "Wyvern Ash.Wyvern Character BP Ash": [
+    "Back",
+    null,
+    "Belly",
+    "Wings main",
+    "Fins highlight",
+    "Body highlights"
+  ],
+  "Ice Wyvern": [
+    "Body Main",
+    null,
+    null,
+    null,
+    "Belly",
+    "Highlights"
+  ],
+  "Wyvern Ice.Wyvern Character BP Ice": [
+    "Body Main",
+    null,
+    null,
+    null,
+    "Belly",
+    "Highlights"
+  ],
+  "Lava Elemental": [
+    null,
+    "Unknown",
+    null,
+    null,
+    null,
+    null
+  ],
+  "LavaGolem.LavaGolem Character BP": [
+    null,
+    "Unknown",
+    null,
+    null,
+    null,
+    null
+  ],
+  "Dire Bear": [
+    "Unknown",
+    "Unknown",
+    null,
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Direbear LL.Direbear LL Character BP": [
+    "Unknown",
+    "Unknown",
+    null,
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Direwolf": [
+    "Unknown",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Unknown"
+  ],
+  "Direwolf LL.Direwolf LL Character BP": [
+    "Unknown",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Unknown"
+  ],
+  "Maeguana": [
+    "Main body",
+    null,
+    "Stripes",
+    "Beak",
+    "Belly",
+    "Back"
+  ],
+  "Maelizard.Maelizard Character BP": [
+    "Main body",
+    null,
+    "Stripes",
+    "Beak",
+    "Belly",
+    "Back"
+  ],
+  "Megaraptor": [
+    "Cheeks & Underbelly",
+    null,
+    "Main 1",
+    "Accents",
+    null,
+    "Main 2"
+  ],
+  "ValMegaraptor.ValMegaraptor Character BP": [
+    "Cheeks & Underbelly",
+    null,
+    "Main 1",
+    "Accents",
+    null,
+    "Main 2"
+  ],
+  "Shastasaurus": [
+    "Body main",
+    null,
+    "Belly",
+    null,
+    "Accents",
+    "Sides"
+  ],
+  "Shastasaurus.Shastasaurus Character BP": [
+    "Body main",
+    null,
+    "Belly",
+    null,
+    "Accents",
+    "Sides"
+  ],
+  "Autumn Drakeling Ghost": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Ghost ShoulderDragon Autumn.Ghost ShoulderDragon Character BP Autumn": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Spring Drakeling Ghost": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Ghost ShoulderDragon Spring.Ghost ShoulderDragon Character BP Spring": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Summer Drakeling Ghost": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Ghost ShoulderDragon Summer.Ghost ShoulderDragon Character BP Summer": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Winter Drakeling Ghost": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Ghost ShoulderDragon Winter.Ghost ShoulderDragon Character BP Winter": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Drakeling (Autumn)": [
+    "Lower",
+    "Wing Pattern",
+    "Frill Tips & Stripes",
+    "Wings",
+    "Underside",
+    "Upper"
+  ],
+  "ShoulderDragon Autumn.ShoulderDragon Character BP Autumn": [
+    "Lower",
+    "Wing Pattern",
+    "Frill Tips & Stripes",
+    "Wings",
+    "Underside",
+    "Upper"
+  ],
+  "Drakeling (Spring)": [
+    "Lower",
+    "Wing & Frill Patterns",
+    "Pattern",
+    "Wings & Frills",
+    "Underside",
+    "Main"
+  ],
+  "ShoulderDragon Spring.ShoulderDragon Character BP Spring": [
+    "Lower",
+    "Wing & Frill Patterns",
+    "Pattern",
+    "Wings & Frills",
+    "Underside",
+    "Main"
+  ],
+  "Drakeling (Summer)": [
+    "Main",
+    "Wing Pattern",
+    "Wings & Horns",
+    "Wing Secondary",
+    "Underside",
+    "Body Highlights"
+  ],
+  "ShoulderDragon Summer.ShoulderDragon Character BP Summer": [
+    "Main",
+    "Wing Pattern",
+    "Wings & Horns",
+    "Wing Secondary",
+    "Underside",
+    "Body Highlights"
+  ],
+  "Drakeling (Winter)": [
+    "Underside",
+    "Wing Veins",
+    null,
+    "Wings & Frills",
+    "Main",
+    "Legs"
+  ],
+  "ShoulderDragon Winter.ShoulderDragon Character BP Winter": [
+    "Underside",
+    "Wing Veins",
+    null,
+    "Wings & Frills",
+    "Main",
+    "Legs"
+  ],
+  "Elderclaw": [
+    "Wood Main",
+    "Flowers",
+    "Flowers & Butterflies",
+    "Mushrooms",
+    "Wood Accent",
+    "Wood Secondary"
+  ],
+  "SpiritBear.SpiritBear Character BP": [
+    "Wood Main",
+    "Flowers",
+    "Flowers & Butterflies",
+    "Mushrooms",
+    "Wood Accent",
+    "Wood Secondary"
+  ],
+  "Xiphactinus": [
+    "Base color",
+    null,
+    null,
+    null,
+    "Spine",
+    "Belly and fins"
+  ],
+  "Xiphactinus ASA.Xiphactinus Character BP ASA": [
+    "Base color",
+    null,
+    null,
+    null,
+    "Spine",
+    "Belly and fins"
+  ],
+  "Yi Ling Ghost": [
+    "Feathers main",
+    "Wings",
+    null,
+    "Wing accents",
+    "Belly",
+    "Main pattern"
+  ],
+  "Ghost YiLing.Ghost YiLing Character BP": [
+    "Feathers main",
+    "Wings",
+    null,
+    "Wing accents",
+    "Belly",
+    "Main pattern"
+  ],
+  "Yi Ling": [
+    "Feathers main",
+    "Wings",
+    null,
+    "Wing accents",
+    "Belly",
+    "Main pattern"
+  ],
+  "YiLing.YiLing Character BP": [
+    "Feathers main",
+    "Wings",
+    null,
+    "Wing accents",
+    "Belly",
+    "Main pattern"
+  ],
+  "Nameless": [
+    "Body secondary",
+    null,
+    null,
+    null,
+    "Fur main",
+    "Belly"
+  ],
+  "ALPHA ChupaCabra.ALPHA ChupaCabra Character BP": [
+    "Body secondary",
+    null,
+    null,
+    null,
+    "Fur main",
+    "Belly"
+  ],
+  "Scrap Elemental": [
+    null,
+    "Body",
+    null,
+    null,
+    null,
+    null
+  ],
+  "ScrapGolem ClubARK.ScrapGolem Character BP ClubARK": [
+    null,
+    "Body",
+    null,
+    null,
+    null,
+    null
+  ],
+  "King Titan": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "KingKaiju WorldBoss.KingKaiju Character BP WorldBoss": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Solwyn": [
+    "Main blend",
+    null,
+    "Tips & Feet",
+    null,
+    "Chest fur",
+    "Accent blend"
+  ],
+  "AngelFox.AngelFox Character BP": [
+    "Main blend",
+    null,
+    "Tips & Feet",
+    null,
+    "Chest fur",
+    "Accent blend"
+  ],
+  "Gigadesmodus": [
+    "Wing edge",
+    "Main 1",
+    "Horn tips",
+    "Horn highlight",
+    "Main 2",
+    null
+  ],
+  "BossBat.BossBat Character BP": [
+    "Wing edge",
+    "Main 1",
+    "Horn tips",
+    "Horn highlight",
+    "Main 2",
+    null
+  ],
+  "Malwyn": [
+    "Main blend",
+    null,
+    "Skull",
+    null,
+    "Belly",
+    "Accent blend"
+  ],
+  "DevilFox.DevilFox Character BP": [
+    "Main blend",
+    null,
+    "Skull",
+    null,
+    "Belly",
+    "Accent blend"
+  ],
+  "IceGolem Char BP Gargoyle.IceGolem Char BP Gargoyle": [
+    null,
+    "Body",
+    null,
+    null,
+    null,
+    null
+  ],
+  "Neophyte": [
+    "Wing and main body",
+    null,
+    null,
+    null,
+    "Fur",
+    "Feather highlights"
+  ],
+  "Neophyte Char BP Gargoyle.Neophyte Char BP Gargoyle": [
+    "Wing and main body",
+    null,
+    null,
+    null,
+    "Fur",
+    "Feather highlights"
+  ],
+  "Purlovia": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Purlovia Polar Gargoyle.Purlovia Character BP Polar Gargoyle": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Gloon": [
+    "Main blend 1",
+    "Back spikes",
+    "Eye stalk & Blobs",
+    null,
+    "Accents",
+    "Main blend 2"
+  ],
+  "LostCharge LanternPet Char BP.LostCharge LanternPet Char BP": [
+    "Main blend 1",
+    "Back spikes",
+    "Eye stalk & Blobs",
+    null,
+    "Accents",
+    "Main blend 2"
+  ],
+  "Neophyte.Neophyte Character BP": [
+    "Main",
+    "Accent",
+    "Wings",
+    "Wings accent",
+    "Accent 2",
+    null
+  ],
+  "Aureliax": [
+    "Main",
+    "Back & Fin accents",
+    "Horns & Tail accent",
+    null,
+    "Accents",
+    "Face & Belly"
+  ],
+  "SnowDragon.SnowDragon Character BP": [
+    "Main",
+    "Back & Fin accents",
+    "Horns & Tail accent",
+    null,
+    "Accents",
+    "Face & Belly"
+  ],
+  "Alpha Ossidon": [
+    "Dark muted-g",
+    null,
+    null,
+    "Dark muted-g",
+    null,
+    "Dark muted-g"
+  ],
+  "MegaSnowMonster.MegaSnowMonster Character BP": [
+    "Dark muted-g",
+    null,
+    null,
+    "Dark muted-g",
+    null,
+    "Dark muted-g"
+  ],
+  "Ossidon": [
+    "Main",
+    null,
+    "Spike tips",
+    "Unknown",
+    "Belly",
+    "Bone"
+  ],
+  "SnowMonster.SnowMonster Character BP": [
+    "Body",
+    null,
+    "Bone Tips",
+    "Claws",
+    "Belly & Highlights",
+    "Bones & Fur"
+  ],
+  "Lost Carnotaurus": [
+    "Red region",
+    "Green region",
+    null,
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Carno Thrall.Carno Character BP Thrall": [
+    "Red region",
+    "Green region",
+    null,
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Ceratosaurus": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Ceratosaurus Thrall.Ceratosaurus Character BP Thrall": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Cryolophosaurus": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Cryolophosaurus Thrall.Cryolophosaurus Character BP Thrall": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Desmodus": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Desmodus Thrall.Desmodus Character BP Thrall": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Malwyn": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "DevilFox Thrall.DevilFox Character BP Thrall": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Dire Bear": [
+    "Red region",
+    "Green region",
+    null,
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Direbear Thrall.Direbear Character BP Thrall": [
+    "Red region",
+    "Green region",
+    null,
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Megatherium": [
+    "Red region",
+    null,
+    null,
+    null,
+    null,
+    "Yellow region"
+  ],
+  "Megatherium Thrall.Megatherium Character BP Thrall": [
+    "Red region",
+    null,
+    null,
+    null,
+    null,
+    "Yellow region"
+  ],
+  "Lost Raptor": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Raptor Thrall.Raptor Character BP Thrall": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Rex": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Rex Thrall.Rex Character BP Thrall": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Woolly Rhino": [
+    "Red region",
+    "Green region",
+    null,
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Rhino Thrall.Rhino Character BP Thrall": [
+    "Red region",
+    "Green region",
+    null,
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Sabertooth": [
+    "Red region",
+    null,
+    null,
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Saber Thrall.Saber Character BP Thrall": [
+    "Red region",
+    null,
+    null,
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Pulmonoscorpius": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Scorpion Thrall.Scorpion Character BP Thrall": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Ossidon": [
+    "Red region",
+    null,
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "SnowMonster Thrall.SnowMonster Character BP Thrall": [
+    "Red region",
+    null,
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Spino": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Spino Thrall.Spino Character BP Thrall": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Therizinosaur": [
+    "Red region",
+    null,
+    "Blue region",
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Therizino Thrall.Therizino Character BP Thrall": [
+    "Red region",
+    null,
+    "Blue region",
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Thylacoleo": [
+    "Red region",
+    null,
+    null,
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Thylacoleo Thrall.Thylacoleo Character BP Thrall": [
+    "Red region",
+    null,
+    null,
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Lost Yutyrannus": [
+    "Red region",
+    "Green region",
+    null,
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Yutyrannus Thrall.Yutyrannus Character BP Thrall": [
+    "Red region",
+    "Green region",
+    null,
+    null,
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Veilwyn Ghost": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Ghost YoungIceFox DinoCompanion.Ghost YoungIceFox DinoCompanion Character BP": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Ghost YoungIceFox DinoCompanion Character WildClone BP.Ghost YoungIceFox DinoCompanion Character WildClone BP": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Veilwyn": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "YoungIceFox DinoCompanion.YoungIceFox DinoCompanion Character BP": [
+    "Main Fur",
+    "Spine Feathers",
+    null,
+    "Spine Tips",
+    "Face & Tail Highlights",
+    "Main Feathers & Spots"
+  ],
+  "YoungIceFox DinoCompanion Character Clone BP.YoungIceFox DinoCompanion Character Clone BP": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "YoungIceFox DinoCompanion Character WildClone BP.YoungIceFox DinoCompanion Character WildClone BP": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Revenant Carnotaurus": [
+    "Main",
+    "Horns",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Carno Child Corrupt Zombie.Carno Character BP Child Corrupt Zombie": [
+    "Main",
+    "Horns",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Revenant Malwyn": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "DevilFox Corrupt Zombie.DevilFox Character BP Corrupt Zombie": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Revenant Dilophosaur": [
+    "Main",
+    "Back",
+    "Spines",
+    "Center line",
+    "Belly and frill",
+    "Foot accents"
+  ],
+  "Dilo Corrupt Zombie.Dilo Character BP Corrupt Zombie": [
+    "Main",
+    "Back",
+    "Spines",
+    "Center line",
+    "Belly and frill",
+    "Foot accents"
+  ],
+  "Revenant Dimorphodon": [
+    "Body",
+    null,
+    null,
+    null,
+    "Webbing and head accents",
+    "Wing edges"
+  ],
+  "Dimorph Corrupted Zombie.Dimorph Character BP Corrupted Zombie": [
+    "Body",
+    null,
+    null,
+    null,
+    "Webbing and head accents",
+    "Wing edges"
+  ],
+  "Revenant Direwolf": [
+    "Unknown",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Unknown"
+  ],
+  "Direwolf Corrupted Zombie.Direwolf Character BP Corrupted Zombie": [
+    "Unknown",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Unknown"
+  ],
+  "Revenant Veilwyn": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "YoungIceFox Corrupted Zombie.YoungIceFox Character BP Corrupted Zombie": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "YoungIceFox Corrupted Zombie NoClones.YoungIceFox Character BP Corrupted Zombie NoClones": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "YoungIceFox Corrupted Zombie WildClone.YoungIceFox Character BP Corrupted Zombie WildClone": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Revenant Iguanodon": [
+    "Mainbody",
+    null,
+    null,
+    null,
+    "Stripes",
+    "Highlights and belly"
+  ],
+  "Iguanodon Corrupted Zombie.Iguanodon Character BP Corrupted Zombie": [
+    "Mainbody",
+    null,
+    null,
+    null,
+    "Stripes",
+    "Highlights and belly"
+  ],
+  "Revenant Mammoth": [
+    "Main body",
+    "Highlights",
+    "Tusks",
+    null,
+    "Highlights",
+    "Highlights"
+  ],
+  "Mammoth Corrupted Zombie.Mammoth Character BP Corrupted Zombie": [
+    "Main body",
+    "Highlights",
+    "Tusks",
+    null,
+    "Highlights",
+    "Highlights"
+  ],
+  "Revenant Parasaur": [
+    "Main",
+    "Nose",
+    "Spines",
+    "Horn",
+    "Back",
+    "Belly"
+  ],
+  "Para Corrupted Zombie.Para Character BP Corrupted Zombie": [
+    "Main",
+    "Nose",
+    "Spines",
+    "Horn",
+    "Back",
+    "Belly"
+  ],
+  "Revenant Pteranodon": [
+    "Stripes",
+    "Wings underlay",
+    "Beak",
+    "Crest",
+    "Wings",
+    "Body"
+  ],
+  "Ptero Corrupted Zombie.Ptero Character BP Corrupted Zombie": [
+    "Stripes",
+    "Wings underlay",
+    "Beak",
+    "Crest",
+    "Wings",
+    "Body"
+  ],
+  "Revenant Raptor": [
+    "Accents",
+    "Feather tips",
+    null,
+    "Feathers",
+    "Main",
+    "Belly"
+  ],
+  "Raptor Corrupted Zombie.Raptor Character BP Corrupted Zombie": [
+    "Accents",
+    "Feather tips",
+    null,
+    "Feathers",
+    "Main",
+    "Belly"
+  ],
+  "Revenant Rex": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Rex Corrupt Zombie.Rex Character BP Corrupt Zombie": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Revenant Sabertooth": [
+    "Dark all -rgbv",
+    null,
+    null,
+    null,
+    "Light all-rgbv",
+    "All"
+  ],
+  "Saber Corrupted Zombie.Saber Character BP Corrupted Zombie": [
+    "Dark all -rgbv",
+    null,
+    null,
+    null,
+    "Light all-rgbv",
+    "All"
+  ],
+  "Revenant Brontosaurus": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Sauropod Corrupt Zombie.Sauropod Character BP Corrupt Zombie": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Revenant Ossidon": [
+    "Main",
+    null,
+    "Spike tips",
+    "Unknown",
+    "Belly",
+    "Bone"
+  ],
+  "SnowMonster Corrupt Zombie.SnowMonster Character BP Corrupt Zombie": [
+    "Main",
+    null,
+    "Spike tips",
+    "Unknown",
+    "Belly",
+    "Bone"
+  ],
+  "Revenant Spino": [
+    "Main",
+    "Sail tip",
+    null,
+    null,
+    "Sail",
+    "Belly"
+  ],
+  "Spino Corrupted Zombie.Spino Character BP Corrupted Zombie": [
+    "Main",
+    "Sail tip",
+    null,
+    null,
+    "Sail",
+    "Belly"
+  ],
+  "Revenant Stegosaurus": [
+    "Main",
+    "Back",
+    "Plates",
+    "Plate edges",
+    "Top",
+    "Belly"
+  ],
+  "Stego Corrupted Zombie.Stego Character BP Corrupted Zombie": [
+    "Main",
+    "Back",
+    "Plates",
+    "Plate edges",
+    "Top",
+    "Belly"
+  ],
+  "Revenant Therizinosaur": [
+    "Feathers main",
+    null,
+    "Body highlights",
+    null,
+    "Feather highlights",
+    "Body main"
+  ],
+  "Therizino Corrupted Zombie.Therizino Character BP Corrupted Zombie": [
+    "Feathers main",
+    null,
+    "Body highlights",
+    null,
+    "Feather highlights",
+    "Body main"
+  ],
+  "Revenant Troodon": [
+    "Main body",
+    null,
+    null,
+    null,
+    "Body highlights and feathers",
+    "Belly"
+  ],
+  "Troodon Corrupted Zombie.Troodon Character BP Corrupted Zombie": [
+    "Main body",
+    null,
+    null,
+    null,
+    "Body highlights and feathers",
+    "Belly"
+  ],
+  "Revenant Yutyrannus": [
+    "Body main",
+    "Facial crest",
+    null,
+    null,
+    "Facial highlights and stripes",
+    "Feet and hands"
+  ],
+  "Yutyrannus Corrupted Zombie.Yutyrannus Character BP Corrupted Zombie": [
+    "Body main",
+    "Facial crest",
+    null,
+    null,
+    "Facial highlights and stripes",
+    "Feet and hands"
+  ],
+  "Neophyte Char BP Gargoyle Bossfight.Neophyte Char BP Gargoyle Bossfight": [
+    "Wing and main body",
+    null,
+    null,
+    null,
+    "Fur",
+    "Feather highlights"
+  ],
+  "Lost King": [
+    "Wing edge",
+    "Skin dark",
+    "Horn tips",
+    "Horn",
+    "Skin light",
+    "None"
+  ],
+  "BossBat LostKing.BossBat Character BP LostKing": [
+    "Wing edge",
+    "Skin dark",
+    "Horn tips",
+    "Horn",
+    "Skin light",
+    "None"
+  ],
+  "Neophyte Minion.Neophyte Character BP Minion": [
+    "Wing and main body",
+    null,
+    null,
+    null,
+    "Fur",
+    "Feather highlights"
+  ],
+  "Succumbed Revenant Rex": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Rex Corrupt Zombie Boss.Rex Character BP Corrupt Zombie Boss": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Succumbed Revenant Therizinosaur": [
+    "Feathers main",
+    null,
+    "Body highlights",
+    null,
+    "Feather highlights",
+    "Body main"
+  ],
+  "Therizino Corrupted Zombie Boss.Therizino Character BP Corrupted Zombie Boss": [
+    "Feathers main",
+    null,
+    "Body highlights",
+    null,
+    "Feather highlights",
+    "Body main"
+  ],
+  "Sauropod Corrupt Zombie Miniboss.Sauropod Character BP Corrupt Zombie Miniboss": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Dilo Corrupt Zombie Miniboss.Dilo Character BP Corrupt Zombie Miniboss": [
+    "Main",
+    "Back",
+    "Spines",
+    "Center line",
+    "Belly and frill",
+    "Foot accents"
+  ],
+  "Ptero Corrupted Zombie Outpost Miniboss.Ptero Character BP Corrupted Zombie Outpost Miniboss": [
+    "Stripes",
+    "Wings underlay",
+    "Beak",
+    "Crest",
+    "Wings",
+    "Body"
+  ],
+  "Yutyrannus Corrupted Zombie Miniboss.Yutyrannus Character BP Corrupted Zombie Miniboss": [
+    "Body main",
+    "Facial crest",
+    null,
+    null,
+    "Facial highlights and stripes",
+    "Feet and hands"
+  ],
+  "Sauropod Corrupt Zombie Outpost.Sauropod Character BP Corrupt Zombie Outpost": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Allosaurus": [
+    "Main",
+    null,
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Allo Outpost.Allo Character BP Outpost": [
+    "Main",
+    null,
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Argentavis": [
+    "Main",
+    null,
+    "Wing tips",
+    "Legs",
+    "Crest",
+    "Belly"
+  ],
+  "Argent Outpost.Argent Character BP Outpost": [
+    "Main",
+    null,
+    "Wing tips",
+    "Legs",
+    "Crest",
+    "Belly"
+  ],
+  "Gigantopithecus": [
+    "Unknown",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Unknown"
+  ],
+  "Bigfoot Outpost.Bigfoot Character BP Outpost": [
+    "Unknown",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Unknown"
+  ],
+  "Bison Outpost.Bison Character BP Outpost": [
+    "Skin",
+    "Fur detail",
+    "Horn tips",
+    "Horn main",
+    "Fur main",
+    "Unknown"
+  ],
+  "Desmodus Thrall Boss.Desmodus Character BP Thrall Boss": [
+    "Red region",
+    "Green region",
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "SnowMonster Thrall Boss.SnowMonster Character BP Thrall Boss": [
+    "Red region",
+    null,
+    "Blue region",
+    "Cyan region",
+    "Magenta region",
+    "Yellow region"
+  ],
+  "Carnotaurus": [
+    "Main",
+    "Horns",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Carno Outpost.Carno Character BP Outpost": [
+    "Main",
+    "Horns",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Ceratosaurus ASA Outpost.Ceratosaurus Character BP ASA Outpost": [
+    "Stripes+face",
+    "Dark markings",
+    null,
+    "Spines",
+    "Spines",
+    "Body"
+  ],
+  "Chalicotherium": [
+    "Main body",
+    null,
+    null,
+    null,
+    "Fur highlights",
+    "Stripes and belly"
+  ],
+  "Chalico Outpost.Chalico Character BP Outpost": [
+    "Main body",
+    null,
+    null,
+    null,
+    "Fur highlights",
+    "Stripes and belly"
+  ],
+  "Cryolophosaurus Outpost.Cryolophosaurus Character BP Outpost": [
+    "Main body",
+    null,
+    "Crest",
+    "Hyperglow",
+    "Hair highlights",
+    "Body accents"
+  ],
+  "Desmodus": [
+    "Base",
+    "Stripe",
+    "Wing veins",
+    "Unknown",
+    "Back",
+    "Wings"
+  ],
+  "Desmodus Outpost.Desmodus Character BP Outpost": [
+    "Base",
+    "Stripe",
+    "Wing veins",
+    "Unknown",
+    "Back",
+    "Wings"
+  ],
+  "Dilophosaur": [
+    "Main",
+    "Back",
+    "Spines",
+    "Center line",
+    "Belly and frill",
+    "Foot accents"
+  ],
+  "Dilo Outpost.Dilo Character BP Outpost": [
+    "Main",
+    "Back",
+    "Spines",
+    "Center line",
+    "Belly and frill",
+    "Foot accents"
+  ],
+  "Dimorphodon": [
+    "Body",
+    null,
+    null,
+    null,
+    "Webbing and head accents",
+    "Wing edges"
+  ],
+  "Dimorph Outpost.Dimorph Character BP Outpost": [
+    "Body",
+    null,
+    null,
+    null,
+    "Webbing and head accents",
+    "Wing edges"
+  ],
+  "Polar Bear": [
+    "Unknown",
+    "Unknown",
+    null,
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Direbear Character Polar Outpost.Direbear Character Polar Outpost": [
+    "Unknown",
+    "Unknown",
+    null,
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Direwolf Outpost.Direwolf Character BP Outpost": [
+    "Unknown",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Unknown"
+  ],
+  "Hyaenodon": [
+    "Body main",
+    null,
+    null,
+    null,
+    "Body highlights and spots",
+    "Underbelly"
+  ],
+  "Hyaenodon Outpost.Hyaenodon Character BP Outpost": [
+    "Body main",
+    null,
+    null,
+    null,
+    "Body highlights and spots",
+    "Underbelly"
+  ],
+  "Managarmr": [
+    "Body main",
+    "Side highlights",
+    "Facial highlights",
+    "Wings main",
+    "Body main",
+    "Wing highlights"
+  ],
+  "IceJumper Outpost.IceJumper Character BP Outpost": [
+    "Body main",
+    "Side highlights",
+    "Facial highlights",
+    "Wings main",
+    "Body main",
+    "Wing highlights"
+  ],
+  "Iguanodon": [
+    "Mainbody",
+    null,
+    null,
+    null,
+    "Stripes",
+    "Highlights and belly"
+  ],
+  "Iguanodon Outpost.Iguanodon Character BP Outpost": [
+    "Mainbody",
+    null,
+    null,
+    null,
+    "Stripes",
+    "Highlights and belly"
+  ],
+  "Mammoth": [
+    "Main body",
+    "Highlights",
+    "Tusks",
+    null,
+    "Highlights",
+    "Highlights"
+  ],
+  "Mammoth Outpost.Mammoth Character BP Outpost": [
+    "Main body",
+    "Highlights",
+    "Tusks",
+    null,
+    "Highlights",
+    "Highlights"
+  ],
+  "Alpha Carnotaurus": [
+    "Dark muted-g",
+    "Dark muted-g",
+    null,
+    null,
+    null,
+    "Dark muted-g"
+  ],
+  "MegaCarno Outpost.MegaCarno Character BP Outpost": [
+    "Dark muted-g",
+    "Dark muted-g",
+    null,
+    null,
+    null,
+    "Dark muted-g"
+  ],
+  "Alpha Raptor": [
+    "Dark muted-g",
+    "Dark muted-g",
+    null,
+    "Dark muted-g",
+    null,
+    "Dark muted-g"
+  ],
+  "MegaRaptor Outpost.MegaRaptor Character BP Outpost": [
+    "Dark muted-g",
+    "Dark muted-g",
+    null,
+    "Dark muted-g",
+    null,
+    "Dark muted-g"
+  ],
+  "Alpha Rex": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Dark muted-g",
+    "Dark muted-g",
+    "Dark muted-g",
+    "Dark muted-g"
+  ],
+  "MegaRex Outpost.MegaRex Character BP Outpost": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Dark muted-g",
+    "Dark muted-g",
+    "Dark muted-g",
+    "Dark muted-g"
+  ],
+  "MegaSnowMonster Outpost.MegaSnowMonster Character BP Outpost": [
+    "Dark muted-g",
+    null,
+    null,
+    "Dark muted-g",
+    null,
+    "Dark muted-g"
+  ],
+  "Megatherium": [
+    "Bodymain",
+    null,
+    null,
+    null,
+    null,
+    "Feet and hands"
+  ],
+  "Megatherium Outpost.Megatherium Character BP Outpost": [
+    "Bodymain",
+    null,
+    null,
+    null,
+    null,
+    "Feet and hands"
+  ],
+  "Oviraptor": [
+    "Main",
+    "Beak",
+    "Spikes",
+    null,
+    "Highlights",
+    "Belly"
+  ],
+  "Oviraptor Outpost.Oviraptor Character BP Outpost": [
+    "Main",
+    "Beak",
+    "Spikes",
+    null,
+    "Highlights",
+    "Belly"
+  ],
+  "Snow Owl": [
+    "Body main",
+    "***not used***",
+    "Wing highlights",
+    "***not used***",
+    "Body lower",
+    "Body highlights"
+  ],
+  "Owl Outpost.Owl Character BP Outpost": [
+    "Body main",
+    "***not used***",
+    "Wing highlights",
+    "***not used***",
+    "Body lower",
+    "Body highlights"
+  ],
+  "Paraceratherium": [
+    "Unknown",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Unknown"
+  ],
+  "Paracer Outpost.Paracer Character BP Outpost": [
+    "Unknown",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Unknown"
+  ],
+  "Procoptodon": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Procoptodon Outpost.Procoptodon Character BP Outpost": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Raptor": [
+    "Accents",
+    "Feather tips",
+    null,
+    "Feathers",
+    "Main",
+    "Belly"
+  ],
+  "Raptor Outpost.Raptor Character BP Outpost": [
+    "Accents",
+    "Feather tips",
+    null,
+    "Feathers",
+    "Main",
+    "Belly"
+  ],
+  "Rex": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Rex Outpost.Rex Character BP Outpost": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    "Belly"
+  ],
+  "Woolly Rhino": [
+    "Unknown",
+    "Unknown",
+    null,
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Rhino Outpost.Rhino Character BP Outpost": [
+    "Unknown",
+    "Unknown",
+    null,
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Sabertooth": [
+    "Dark all -rgbv",
+    null,
+    null,
+    null,
+    "Light all-rgbv",
+    "All"
+  ],
+  "Saber Outpost.Saber Character BP Outpost": [
+    "Dark all -rgbv",
+    null,
+    null,
+    null,
+    "Light all-rgbv",
+    "All"
+  ],
+  "Pulmonoscorpius": [
+    "All",
+    "All",
+    "Light all",
+    "Light all",
+    "Dark all",
+    "All"
+  ],
+  "Scorpion Outpost.Scorpion Character BP Outpost": [
+    "All",
+    "All",
+    "Light all",
+    "Light all",
+    "Dark all",
+    "All"
+  ],
+  "SnowMonster Outpost.SnowMonster Character BP Outpost": [
+    "Main",
+    null,
+    "Spike tips",
+    "Unknown",
+    "Belly",
+    "Bone"
+  ],
+  "Spino": [
+    "Main",
+    "Sail tip",
+    null,
+    null,
+    "Sail",
+    "Belly"
+  ],
+  "Spino Outpost.Spino Character BP Outpost": [
+    "Main",
+    "Sail tip",
+    null,
+    null,
+    "Sail",
+    "Belly"
+  ],
+  "Stegosaurus": [
+    "Main",
+    "Back",
+    "Plates",
+    "Plate edges",
+    "Top",
+    "Belly"
+  ],
+  "Stego Outpost.Stego Character BP Outpost": [
+    "Main",
+    "Back",
+    "Plates",
+    "Plate edges",
+    "Top",
+    "Belly"
+  ],
+  "Therizinosaur": [
+    "Feathers main",
+    null,
+    "Body highlights",
+    null,
+    "Feather highlights",
+    "Body main"
+  ],
+  "Therizino Outpost.Therizino Character BP Outpost": [
+    "Feathers main",
+    null,
+    "Body highlights",
+    null,
+    "Feather highlights",
+    "Body main"
+  ],
+  "Triceratops": [
+    "Main",
+    "Top",
+    null,
+    "Scale edges",
+    "Back",
+    "Belly"
+  ],
+  "Trike Outpost.Trike Character BP Outpost": [
+    "Main",
+    "Top",
+    null,
+    "Scale edges",
+    "Back",
+    "Belly"
+  ],
+  "Troodon": [
+    "Main body",
+    null,
+    null,
+    null,
+    "Body highlights and feathers",
+    "Belly"
+  ],
+  "Troodon Outpost.Troodon Character BP Outpost": [
+    "Main body",
+    null,
+    null,
+    null,
+    "Body highlights and feathers",
+    "Belly"
+  ],
+  "Yeti": [
+    "Unknown",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Unknown"
+  ],
+  "Yeti Outpost.Yeti Character BP Outpost": [
+    "Unknown",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Unknown"
+  ],
+  "Yutyrannus": [
+    "Body main",
+    "Facial crest",
+    null,
+    null,
+    "Facial highlights and stripes",
+    "Feet and hands"
+  ],
+  "Yutyrannus Outpost.Yutyrannus Character BP Outpost": [
+    "Body main",
+    "Facial crest",
+    null,
+    null,
+    "Facial highlights and stripes",
+    "Feet and hands"
+  ],
+  "Astral Argentavis": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "AstralArgent.AstralArgent Character BP": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "Astral Carnotaurus": [
+    "Dark muted-g",
+    "Dark muted-g",
+    null,
+    null,
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "AstralCarno.AstralCarno Character BP": [
+    "Dark muted-g",
+    "Dark muted-g",
+    null,
+    null,
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "Astral Deinosuchus": [
+    "Dark muted-g",
+    null,
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "AstralDeinosuchusASA.AstralDeinosuchusASA Character BP": [
+    "Dark muted-g",
+    null,
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "Astral Direwolf": [
+    "Dark muted-g",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "AstralDirewolf.AstralDirewolf Character BP": [
+    "Dark muted-g",
+    null,
+    null,
+    null,
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "Astral Mammoth": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    null,
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "AstralMammoth.AstralMammoth Character BP": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    null,
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "Astral Megalodon": [
+    "All -gvnew +primaries",
+    null,
+    null,
+    null,
+    "Dark muted",
+    "Light muted -g +w"
+  ],
+  "AstralMegalodon.AstralMegalodon Character BP": [
+    "All -gvnew +primaries",
+    null,
+    null,
+    null,
+    "Dark muted",
+    "Light muted -g +w"
+  ],
+  "Astral Mosasaur": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "Astral Mosa.Astral Mosa Character BP": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "Astral Raptor": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "AstralRaptor.AstralRaptor Character BP": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "Astral T-Rex": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "AstralRex.AstralRex Character BP": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "Astral Rock Drake": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "AstralRockDrake.AstralRockDrake Character BP": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "Scorpion": [
+    "Body",
+    "Uppershell",
+    "Claws",
+    "Lateral horns",
+    "Hair",
+    "Belly"
+  ],
+  "AstralScorpionKing.AstralScorpionKing Character BP": [
+    "Dark muted-g",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g",
+    "Unknown",
+    "Dark muted-g"
+  ],
+  "Astral Tusoteuthis": [
+    "Body highlights",
+    "Tentacle highlights",
+    null,
+    null,
+    "Tentacle main",
+    "Body main"
+  ],
+  "Astral Tusoteuthis.Astral Tusoteuthis Character BP": [
+    "Body highlights",
+    "Tentacle highlights",
+    null,
+    null,
+    "Tentacle main",
+    "Body main"
+  ],
+  "Erymanthian": [
+    "Underbelly",
+    null,
+    "Top highlights",
+    null,
+    null,
+    "Body main"
+  ],
+  "Daeodon Fire.Daeodon Character BP Fire": [
+    "Underbelly",
+    null,
+    "Top highlights",
+    null,
+    null,
+    "Body main"
+  ],
+  "Kalydonios": [
+    "Underbelly",
+    null,
+    "Top highlights",
+    null,
+    null,
+    "Body main"
+  ],
+  "Daeodon Poison.Daeodon Character BP Poison": [
+    "Underbelly",
+    null,
+    "Top highlights",
+    null,
+    null,
+    "Body main"
+  ],
+  "Natrix's Onyc": [
+    "Dark muted -g",
+    "Dark muted -g",
+    "Light muted -g",
+    null,
+    "Light muted -g",
+    "Light muted -g"
+  ],
+  "Bat Gamma.Bat Character BP Gamma": [
+    "Dark muted -g",
+    "Dark muted -g",
+    "Light muted -g",
+    null,
+    "Light muted -g",
+    "Light muted -g"
+  ],
+  "Natrix's Titanoboa": [
+    "Main",
+    "Inner frill",
+    "Mid frill",
+    "Frill accent",
+    "Back",
+    "Outer frill"
+  ],
+  "BoaFrill Gamma.BoaFrill Character BP Gamma": [
+    "Main",
+    "Inner frill",
+    "Mid frill",
+    "Frill accent",
+    "Back",
+    "Outer frill"
+  ],
+  "Kraken (Tentacle)": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "KrakenTentacle.KrakenTentacle Character BP": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "KrakenTentacle Alpha.KrakenTentacle Character BP Alpha": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "KrakenTentacle Beta.KrakenTentacle Character BP Beta": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Kraken": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Kraken.Kraken Character BP": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Kraken Alpha.Kraken Character BP Alpha": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Kraken Beta.Kraken Character BP Beta": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Kraken (Shark)": [
+    "Body secondary",
+    null,
+    null,
+    null,
+    "Body primary",
+    null
+  ],
+  "Shark.Shark Character BP": [
+    "Body secondary",
+    null,
+    null,
+    null,
+    "Body primary",
+    null
+  ],
+  "Shark Alpha.Shark Character BP Alpha": [
+    "Body secondary",
+    null,
+    null,
+    null,
+    "Body primary",
+    null
+  ],
+  "Shark Beta.Shark Character BP Beta": [
+    "Body secondary",
+    null,
+    null,
+    null,
+    "Body primary",
+    null
+  ],
+  "Kraken (Squid)": [
+    "Body primary",
+    null,
+    null,
+    null,
+    "Body secondary",
+    "Glow color"
+  ],
+  "Squid.Squid Character BP": [
+    "Body primary",
+    null,
+    null,
+    null,
+    "Body secondary",
+    "Glow color"
+  ],
+  "Squid Alpha.Squid Character BP Alpha": [
+    "Body primary",
+    null,
+    null,
+    null,
+    "Body secondary",
+    "Glow color"
+  ],
+  "Squid Beta.Squid Character BP Beta": [
+    "Body primary",
+    null,
+    null,
+    null,
+    "Body secondary",
+    "Glow color"
+  ],
+  "Cave Minotaur": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    null
+  ],
+  "CaveMinotaur New.CaveMinotaur Character BP New": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    null
+  ],
+  "Minotarchos": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    null
+  ],
+  "MinotaurTempleBoss.MinotaurTempleBoss Character BP": [
+    "Main",
+    "Spine",
+    null,
+    null,
+    "Back",
+    null
+  ],
+  "Rhyniognatha Drone": [
+    "Body main",
+    null,
+    null,
+    null,
+    "Body stripes and highlights",
+    "Underbelly"
+  ],
+  "RhynioDrone.RhynioDrone Character BP": [
+    "Body main",
+    null,
+    null,
+    null,
+    "Body stripes and highlights",
+    "Underbelly"
+  ],
+  "ScorpionKing.ScorpionKing Character BP": [
+    "Body",
+    "Uppershell",
+    "Claws",
+    "Lateral horns",
+    "Hair",
+    "Belly"
+  ],
+  "Thanatos": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "KingKaiju WorldBoss Astraeos.KingKaiju Character BP WorldBoss Astraeos": [
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown",
+    "Unknown"
+  ],
+  "Oasisaur": [
+    "Main",
+    "Claw Highlights",
+    "Skin",
+    "Head Highlights",
+    "Accents",
+    "Belly & Freckles"
+  ],
+  "Oasisaur.Oasisaur Character BP": [
+    "Main",
+    "Claw Highlights",
+    "Skin",
+    "Head Highlights",
+    "Accents",
+    "Belly & Freckles"
+  ],
+  "Vulture": [
+    "Body main",
+    "Head highlight",
+    null,
+    null,
+    "Head main",
+    "Body highlights"
+  ],
+  "Vulture OasisaurTaming.Vulture Character BP OasisaurTaming": [
+    "Body main",
+    "Head highlight",
+    null,
+    null,
+    "Head main",
+    "Body highlights"
+  ],
+  "Cosmo": [
+    "Main body",
+    "Leg pattern ",
+    "Blue fur",
+    "Lantern",
+    "White fur",
+    "Red fur"
+  ],
+  "JumpingSpider.JumpingSpider Character BP": [
+    "Main body",
+    "Leg pattern ",
+    "Blue fur",
+    "Lantern",
+    "White fur",
+    "Red fur"
+  ],
+  "Armadoggo": [
+    "Skin",
+    "Fur highlight",
+    "Spikes",
+    "Armor",
+    "Fur main",
+    null
+  ],
+  "Doggo.Doggo Character BP": [
+    "Skin",
+    "Fur highlight",
+    "Spikes",
+    "Armor",
+    "Fur main",
+    null
+  ],
+  "Anglerfish Ghost": [
+    "Body",
+    null,
+    null,
+    null,
+    "Fin tips",
+    "Body spots"
+  ],
+  "Ghost Angler.Ghost Angler Character BP": [
+    "Body",
+    null,
+    null,
+    null,
+    "Fin tips",
+    "Body spots"
+  ],
+  "Ankylosaurus Ghost": [
+    "Shell",
+    "Spikes",
+    "Scales",
+    "Spike tips",
+    "Shell stripes",
+    "Body"
+  ],
+  "Ghost Ankylo.Ghost Ankylo Character BP": [
+    "Shell",
+    "Spikes",
+    "Scales",
+    "Spike tips",
+    "Shell stripes",
+    "Body"
+  ],
+  "Argentavis Ghost": [
+    "Main",
+    null,
+    "Wing tips",
+    "Legs",
+    "Crest",
+    "Belly"
+  ],
+  "Ghost Argent.Ghost Argent Character BP": [
+    "Main",
+    null,
+    "Wing tips",
+    "Legs",
+    "Crest",
+    "Belly"
+  ],
+  "Megalodon Ghost": [
+    "Body top",
+    null,
+    null,
+    null,
+    "Stripes",
+    "Underside"
+  ],
+  "Ghost Megalodon.Ghost Megalodon Character BP": [
+    "Body top",
+    null,
+    null,
+    null,
+    "Stripes",
+    "Underside"
+  ],
+  "Otter Ghost": [
+    "Body main",
+    null,
+    null,
+    null,
+    "Body stripes and highlights",
+    "Underbelly"
+  ],
+  "Ghost Otter.Ghost Otter Character BP": [
+    "Body main",
+    null,
+    null,
+    null,
+    "Body stripes and highlights",
+    "Underbelly"
+  ],
+  "Aberrant Oviraptor": [
+    "Main",
+    "Beak",
+    "Spikes",
+    null,
+    "Highlights",
+    "Belly"
+  ],
+  "Oviraptor Aberrant.Oviraptor Character BP Aberrant": [
+    "Main",
+    "Beak",
+    "Spikes",
+    null,
+    "Highlights",
+    "Belly"
+  ],
+  "Deinonychus Ghost": [
+    "Base color",
+    "Feathers accents",
+    null,
+    "Feathers main",
+    "Stripes",
+    "Highlights"
+  ],
+  "Ghost Deinonychus.Ghost Deinonychus Character BP": [
+    "Base color",
+    "Feathers accents",
+    null,
+    "Feathers main",
+    "Stripes",
+    "Highlights"
+  ],
+  "Araneo": [
+    "Dark all",
+    null,
+    "Dark all",
+    "Dark all",
+    "Light all",
+    "Dark all"
+  ],
+  "SpiderS Juvenile.SpiderS Character BP Juvenile": [
+    "Dark all",
+    null,
+    "Dark all",
+    "Dark all",
+    "Light all",
+    "Dark all"
+  ],
+  "Spino Ghost": [
+    "Main",
+    "Sail tip",
+    null,
+    null,
+    "Sail",
+    "Belly"
+  ],
+  "Ghost Spino.Ghost Spino Character BP": [
+    "Main",
+    "Sail tip",
+    null,
+    null,
+    "Sail",
+    "Belly"
+  ]
+}
