@@ -64,22 +64,30 @@ function StatRow({ def, value, levels }) {
 
   return (
     <div className="grid items-center gap-1.5"
-         style={{ gridTemplateColumns: '1.2rem 3.8rem 1fr auto' }}>
+         style={{ gridTemplateColumns: '1.2rem 3.8rem 1fr 4.5rem 2rem' }}>
       <span className="text-xs text-center leading-none">{def.icon}</span>
       <span className="text-[11px] text-slate-400 truncate">{def.label}</span>
       <div className="stat-bar-track">
         <div className="stat-bar-fill" style={{ width: `${pct}%`, backgroundColor: def.color }} />
       </div>
 
-      <div className="flex items-center gap-1.5 justify-end">
+      <div className="flex items-center justify-end">
         <span className="text-[11px] font-semibold text-slate-300 font-mono tabular-nums">{display}</span>
+      </div>
+      <div className="flex items-center justify-end">
         {hasPoints ? (
           <Tooltip text={`Estimated total stat points: ${totalPts}`} direction="up">
             <span className="px-1.5 py-0.5 bg-sky-500/20 text-sky-300 rounded text-[11px] font-bold leading-none border border-sky-500/30 tabular-nums cursor-help">
               {totalPts}
             </span>
           </Tooltip>
-        ) : null}
+        ) : (
+          <Tooltip text="Stat points unavailable — species not in database" direction="up">
+            <span className="px-1.5 py-0.5 bg-slate-700/40 text-slate-600 rounded text-[11px] font-bold leading-none border border-slate-700/40 tabular-nums cursor-help">
+              ?
+            </span>
+          </Tooltip>
+        )}
       </div>
     </div>
   );
@@ -225,10 +233,7 @@ export default function DinoDetail({
     });
   }
 
-  const visibleStats = STATS.filter(def => {
-    const v = dino.stats?.[def.key] || 0;
-    return v > 0 || statLevels?.[def.key];
-  });
+  const visibleStats = STATS.filter(def => (dino.stats?.[def.key] || 0) > 0);
 
   return (
     <div

@@ -1,53 +1,5 @@
 {
   "dinos": {
-    "51109503_310252551": {
-      "id": "51109503_310252551",
-      "dinoName": "Stranger Danger",
-      "species": "Tek Parasaur",
-      "dinoClass": "/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP.BionicPara_Character_BP_C",
-      "nameTag": "Para",
-      "isFemale": true,
-      "isNeutered": false,
-      "level": 450,
-      "colors": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "colorHex": [
-        "#101010",
-        "#821c11",
-        "#be78bf",
-        "#bfffbf",
-        "#505050",
-        "#e1ffe1"
-      ],
-      "imprint": 0,
-      "mutationsMale": 0,
-      "mutationsFemale": 0,
-      "babyAge": 1,
-      "tamingEffectiveness": 1,
-      "isCryopodded": false,
-      "tribeName": "",
-      "ownerName": "TheDAmOldGamers",
-      "imprinterName": "Rhiley",
-      "map": "Imported",
-      "stats": {
-        "health": 3160.07007,
-        "stamina": 3645,
-        "oxygen": 1260,
-        "food": 15000,
-        "weight": 1228.80005,
-        "melee": 3.90392041,
-        "speed": 0.670000017,
-        "fortitude": 0,
-        "crafting": 0
-      },
-      "_source": "ini_import"
-    },
     "321802767_357196693": {
       "id": "321802767_357196693",
       "dinoName": "",
@@ -331,6 +283,54 @@
         "weight": 3650.94995,
         "melee": 11.0967636,
         "speed": 0,
+        "fortitude": 0,
+        "crafting": 0
+      },
+      "_source": "ini_import"
+    },
+    "51109503_310252551": {
+      "id": "51109503_310252551",
+      "dinoName": "Stranger Danger",
+      "species": "Tek Parasaur",
+      "dinoClass": "/Game/PrimalEarth/Dinos/Para/BionicPara_Character_BP.BionicPara_Character_BP_C",
+      "nameTag": "Para",
+      "isFemale": true,
+      "isNeutered": false,
+      "level": 450,
+      "colors": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "colorHex": [
+        "#101010",
+        "#821c11",
+        "#be78bf",
+        "#bfffbf",
+        "#505050",
+        "#e1ffe1"
+      ],
+      "imprint": 0,
+      "mutationsMale": 0,
+      "mutationsFemale": 0,
+      "babyAge": 1,
+      "tamingEffectiveness": 1,
+      "isCryopodded": false,
+      "tribeName": "",
+      "ownerName": "TheDAmOldGamers",
+      "imprinterName": "Rhiley",
+      "map": "Imported",
+      "stats": {
+        "health": 3160.07007,
+        "stamina": 3645,
+        "oxygen": 1260,
+        "food": 15000,
+        "weight": 1228.80005,
+        "melee": 3.90392041,
+        "speed": 0.670000017,
         "fortitude": 0,
         "crafting": 0
       },
