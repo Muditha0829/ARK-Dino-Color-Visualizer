@@ -41,7 +41,7 @@ const STAT_KEYS = ['health', 'stamina', 'oxygen', 'food', 'weight', 'melee', 'sp
  * Returns { wild, tamed, estimated } or null if not computable.
  */
 function estimateOneStat(V, statDef, IQ, TE) {
-  if (!statDef || !statDef.B || !statDef.Iw) return null;
+  if (!statDef || !statDef.B || statDef.Iw === undefined || statDef.Iw === null) return null;
   if (V === 0 || V === null || V === undefined) return null;
 
   const { B, Iw, Im, Ta, Tm, TBHM = 1 } = statDef;
@@ -54,9 +54,13 @@ function estimateOneStat(V, statDef, IQ, TE) {
 
   if (!baseCoeff || baseCoeff <= 0) return null;
 
-  let bestLw = 0, bestLt = 0, bestDiff = Infinity;
+  let bestLw = -1, bestLt = 0, bestDiff = Infinity;
 
-  // Search Lw from 0 upward; wild levels are unlikely to exceed 300
+  // Tolerance: if two Lw values are within this relative error of each other,
+  // prefer the higher one (more wild levels = fewer tamed levels = more accurate split)
+  const PREFER_WILD_TOLERANCE = 0.002;
+
+  // Search Lw from 0 upward; wild levels are unlikely to exceed 400
   for (let Lw = 0; Lw <= 400; Lw++) {
     const wildStatPart = baseCoeff * (1 + Lw * Iw);
 
@@ -71,16 +75,21 @@ function estimateOneStat(V, statDef, IQ, TE) {
       const computed = wildStatPart * (1 + Im * Lt);
       const diff = Math.abs(computed - V) / V; // relative error
 
-      if (diff < bestDiff) {
+      // Prefer this Lw if it's strictly better, OR if it ties within tolerance
+      // (prefer higher Lw = more wild levels, fewer tamed levels)
+      const isBetter = diff < bestDiff - PREFER_WILD_TOLERANCE;
+      const isTied   = diff <= bestDiff + PREFER_WILD_TOLERANCE && Lw > bestLw;
+      if (isBetter || isTied) {
         bestDiff = diff;
         bestLw = Lw;
         bestLt = Lt;
       }
-      if (diff < 0.001) break; // good enough
     } else {
-      // No per-tamed-level multiplier (e.g. speed, oxygen sometimes)
+      // No per-tamed-level multiplier (e.g. speed)
       const diff = Math.abs(wildStatPart - V) / V;
-      if (diff < bestDiff) {
+      const isBetter = diff < bestDiff - PREFER_WILD_TOLERANCE;
+      const isTied   = diff <= bestDiff + PREFER_WILD_TOLERANCE && Lw > bestLw;
+      if (isBetter || isTied) {
         bestDiff = diff;
         bestLw = Lw;
         bestLt = 0;

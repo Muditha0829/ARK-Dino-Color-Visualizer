@@ -10,7 +10,6 @@ const STATS = [
   { key: 'food',      label: 'Food',      icon: '🍖',  color: '#34d399', max: 30000  },
   { key: 'weight',    label: 'Weight',    icon: '⚖️',  color: '#c084fc', max: 20000  },
   { key: 'melee',     label: 'Melee',     icon: '⚔️',  color: '#fb923c', max: 20,    fmt: v => `${(v * 100).toFixed(0)}%` },
-  { key: 'speed',     label: 'Speed',     icon: '💨',  color: '#67e8f9', max: 3,     fmt: v => `${(v * 100).toFixed(0)}%` },
   { key: 'fortitude', label: 'Fort.',     icon: '🛡️',  color: '#86efac', max: 500   },
   { key: 'crafting',  label: 'Craft',     icon: '🔨',  color: '#fde68a', max: 5,     fmt: v => `${(v * 100).toFixed(0)}%` },
 ];
@@ -58,39 +57,29 @@ function GenderIcon({ isFemale, size = 'text-base' }) {
 
 /* ── Stat row ─────────────────────────────────────────────────────── */
 function StatRow({ def, value, levels }) {
-  const pct     = Math.min(100, (value / def.max) * 100);
-  const display = def.fmt ? def.fmt(value) : Math.round(value).toLocaleString();
-  const hasPoints = levels && levels.wild >= 0 && levels.tamed >= 0;
-
-  const tipText = hasPoints
-    ? `Wild base: ${levels.wild} pts  ·  Mutations: 0 pts (not tracked in .ini export)  ·  Domestic: ${levels.tamed} pts`
-    : null;
+  const pct      = Math.min(100, (value / def.max) * 100);
+  const display  = def.fmt ? def.fmt(value) : Math.round(value).toLocaleString();
+  const hasPoints = levels && levels.total != null && levels.total >= 0;
+  const totalPts  = hasPoints ? (levels.total ?? levels.wild) : null;
 
   return (
     <div className="grid items-center gap-1.5"
-         style={{ gridTemplateColumns: '1.2rem 3.8rem 1fr 4rem 7.5rem' }}>
+         style={{ gridTemplateColumns: '1.2rem 3.8rem 1fr auto' }}>
       <span className="text-xs text-center leading-none">{def.icon}</span>
       <span className="text-[11px] text-slate-400 truncate">{def.label}</span>
       <div className="stat-bar-track">
         <div className="stat-bar-fill" style={{ width: `${pct}%`, backgroundColor: def.color }} />
       </div>
-      <span className="text-[11px] font-semibold text-slate-300 font-mono text-right tabular-nums">{display}</span>
 
-      {/* Aligned point chips */}
-      <div className="flex items-center gap-0.5 justify-end">
+      <div className="flex items-center gap-1.5 justify-end">
+        <span className="text-[11px] font-semibold text-slate-300 font-mono tabular-nums">{display}</span>
         {hasPoints ? (
-          <Tooltip text={tipText} wide direction="up">
-            <div className="flex items-center gap-0.5 cursor-help">
-              <span className="w-7 text-center py-0.5 bg-sky-500/25 text-sky-300 rounded text-[11px] font-bold leading-none border border-sky-500/30 tabular-nums inline-block">{levels.wild}</span>
-              <span className="text-slate-700 text-[9px]">|</span>
-              <span className="w-5 text-center py-0.5 bg-slate-700/60 text-slate-400 rounded text-[11px] font-bold leading-none border border-slate-600/40 tabular-nums inline-block">0</span>
-              <span className="text-slate-700 text-[9px]">|</span>
-              <span className="w-7 text-center py-0.5 bg-amber-500/25 text-amber-300 rounded text-[11px] font-bold leading-none border border-amber-500/30 tabular-nums inline-block">{levels.tamed}</span>
-            </div>
+          <Tooltip text={`Estimated total stat points: ${totalPts}`} direction="up">
+            <span className="px-1.5 py-0.5 bg-sky-500/20 text-sky-300 rounded text-[11px] font-bold leading-none border border-sky-500/30 tabular-nums cursor-help">
+              {totalPts}
+            </span>
           </Tooltip>
-        ) : (
-          <span className="text-slate-700 text-[10px]">—</span>
-        )}
+        ) : null}
       </div>
     </div>
   );
@@ -98,7 +87,7 @@ function StatRow({ def, value, levels }) {
 
 /* ── Color region tile (with ID on swatch) ────────────────────────── */
 function ColorTile({ index, hex, regionName }) {
-  const isEmpty  = !hex || hex === '#101010' || hex === '#000000';
+  const isEmpty  = !hex || hex === '#000000';
   const isUnused = isEmpty && !regionName;
   const nearest  = !isEmpty ? findNearestArkColor(hex) : null;
 
@@ -209,7 +198,7 @@ export default function DinoDetail({
 
   const activeColorNames = Array.from({ length: 6 }, (_, i) => {
     const hex = dino.colorHex?.[i] || colorMap[dino.colors?.[i]]?.hex || null;
-    const isEmpty = !hex || hex === '#101010' || hex === '#000000';
+    const isEmpty = !hex || hex === '#000000';
     return isEmpty ? null : (findNearestArkColor(hex)?.name || null);
   }).filter(Boolean);
 
@@ -411,19 +400,8 @@ export default function DinoDetail({
 
             {/* Stats */}
             <div className="px-3 pt-2.5 pb-1 flex flex-col gap-1.5 flex-1 overflow-hidden">
-              <div className="flex items-center justify-between flex-shrink-0 mb-0.5">
+              <div className="flex-shrink-0 mb-0.5">
                 <p className="section-label mb-0">Statistics</p>
-                {statLevels && (
-                  <Tooltip text="Base wild levels | Mutation pts (0 — not stored in .ini exports) | Domestic/tamed pts" wide direction="down">
-                    <div className="flex items-center gap-0.5 cursor-help">
-                      <span className="w-7 text-center py-0.5 bg-sky-500/20 text-sky-300 rounded text-[9px] font-bold uppercase tracking-wide border border-sky-500/20">BASE</span>
-                      <span className="text-slate-700 text-[9px]">|</span>
-                      <span className="w-5 text-center py-0.5 bg-slate-700/40 text-slate-500 rounded text-[9px] font-bold uppercase tracking-wide border border-slate-600/20">MUT</span>
-                      <span className="text-slate-700 text-[9px]">|</span>
-                      <span className="w-7 text-center py-0.5 bg-amber-500/20 text-amber-300 rounded text-[9px] font-bold uppercase tracking-wide border border-amber-500/20">DOM</span>
-                    </div>
-                  </Tooltip>
-                )}
               </div>
 
               <div className="flex flex-col gap-1.5">
