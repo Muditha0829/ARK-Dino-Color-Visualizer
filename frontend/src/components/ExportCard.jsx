@@ -93,7 +93,7 @@ export default function ExportCard({ dino, colorMap, comboOverride }) {
 
   const activeColorNames = Array.from({ length: 6 }, (_, i) => {
     const hex = dino.colorHex?.[i] || colorMap[dino.colors?.[i]]?.hex || null;
-    const isEmpty = !hex || hex === '#101010' || hex === '#000000';
+    const isEmpty = !hex || hex === '#000000';
     return isEmpty ? null : (findNearestArkColor(hex)?.name || null);
   }).filter(Boolean);
 
@@ -345,7 +345,7 @@ export default function ExportCard({ dino, colorMap, comboOverride }) {
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3,1fr)', gap: '5px' }}>
           {Array.from({ length: 6 }, (_, i) => {
             const hex      = dino.colorHex?.[i] || colorMap[dino.colors?.[i]]?.hex || null;
-            const isEmpty  = !hex || hex === '#101010' || hex === '#000000';
+            const isEmpty  = !hex || hex === '#000000';
             const nearest  = !isEmpty ? findNearestArkColor(hex) : null;
             const rName    = regionNames?.[i] || REGION_FALLBACK[i];
             const isUnused = isEmpty && !regionNames?.[i];

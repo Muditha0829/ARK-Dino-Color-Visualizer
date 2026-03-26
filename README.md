@@ -55,49 +55,34 @@ cd ark-dino-visualizer
 
 ---
 
-### 2. Install backend dependencies
+### 2. Install all dependencies
 
 ```bash
-cd backend
 npm install
+npm --prefix backend install
+npm --prefix frontend install
 ```
 
 ---
 
-### 3. Install frontend dependencies
+### 3. Start the app
 
 ```bash
-cd ../frontend
-npm install
-```
-
----
-
-### 4. Start the backend
-
-```bash
-cd ../backend
 npm run dev
 ```
 
-The backend API will start on **http://localhost:3000**.
+This runs both the backend and frontend together in one terminal. You'll see color-coded output from each:
+
+| Server | URL |
+|---|---|
+| Backend API | http://localhost:3000 |
+| Frontend | http://localhost:5173 |
+
+Open **http://localhost:5173** in your browser.
 
 ---
 
-### 5. Start the frontend
-
-Open a second terminal:
-
-```bash
-cd frontend
-npm run dev
-```
-
-The frontend will be available at **http://localhost:5173**.
-
----
-
-### 6. Import your dinos
+### 4. Import your dinos
 
 1. In ARK, export your dino data to a `.ini` file using your preferred export tool
 2. Place the file where the backend can watch it (configure the path in `backend/server.js` if needed)

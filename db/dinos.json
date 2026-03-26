@@ -1,5 +1,53 @@
 {
   "dinos": {
+    "321802767_357196693": {
+      "id": "321802767_357196693",
+      "dinoName": "",
+      "species": "Tek Triceratops",
+      "dinoClass": "/Game/PrimalEarth/Dinos/Trike/BionicTrike_Character_BP.BionicTrike_Character_BP_C",
+      "nameTag": "Trike",
+      "isFemale": true,
+      "isNeutered": false,
+      "level": 328,
+      "colors": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "colorHex": [
+        "#00ffff",
+        "#00ffff",
+        "#00ffff",
+        "#ff00ff",
+        "#ff00ff",
+        "#ff00ff"
+      ],
+      "imprint": 0,
+      "mutationsMale": 6300,
+      "mutationsFemale": 4200,
+      "babyAge": 0.0150334388,
+      "tamingEffectiveness": 1,
+      "isCryopodded": false,
+      "tribeName": "",
+      "ownerName": "TheDAmOldGamers",
+      "imprinterName": "Rhiley",
+      "map": "Imported",
+      "stats": {
+        "health": 7875.06982,
+        "stamina": 1065,
+        "oxygen": 150,
+        "food": 3000,
+        "weight": 846.799988,
+        "melee": 6.13831997,
+        "speed": 1.20000005,
+        "fortitude": 0,
+        "crafting": 0
+      },
+      "_source": "ini_import"
+    },
     "42427012_451787823": {
       "id": "42427012_451787823",
       "dinoName": "PB",
