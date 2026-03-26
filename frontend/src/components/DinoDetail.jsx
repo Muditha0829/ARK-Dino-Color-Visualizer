@@ -131,13 +131,13 @@ function ColorTile({ index, hex, regionName }) {
 
         {/* Label + color name */}
         <div className="min-w-0 flex-1 overflow-hidden">
-          <p className="text-[9px] font-semibold text-slate-600 truncate leading-tight">{shortLabel}</p>
+          <p className="text-[9px] font-semibold text-slate-500 truncate leading-tight">{shortLabel}</p>
           {isUnused ? (
-            <p className="text-[9px] text-slate-700 leading-tight">Unused</p>
+            <p className="text-[9px] text-slate-600 leading-tight">Unused</p>
           ) : isEmpty ? (
-            <p className="text-[9px] text-slate-600 leading-tight">None</p>
+            <p className="text-[9px] text-slate-500 leading-tight">None</p>
           ) : (
-            <p className="text-[9px] leading-tight truncate font-medium" style={{ color: nearest?.hex || '#94a3b8' }}>
+            <p className="text-[9px] leading-tight truncate font-medium text-slate-200">
               {nearest?.name || hex}
             </p>
           )}
@@ -289,7 +289,7 @@ export default function DinoDetail({
 
             {/* Image */}
             <div className="flex-shrink-0 flex items-center justify-center"
-                 style={{ aspectRatio: '4/3', background: 'radial-gradient(ellipse at 50% 60%, #252b4a 0%, #0f1220 100%)' }}>
+                 style={{ height: '185px', background: 'radial-gradient(ellipse at 50% 60%, #252b4a 0%, #0f1220 100%)' }}>
               {!imgError ? (
                 <img src={`/api/render/${dino.id}`} alt={dino.species}
                      className="w-full h-full object-contain" onError={() => setImgError(true)} />

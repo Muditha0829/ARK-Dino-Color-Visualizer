@@ -282,6 +282,11 @@ async function renderDino(species, colorIds, colorHex) {
     }
     // If no mask, render the base silhouette uncolored
 
+    // Downscale to a fixed width for faster loads and smaller files
+    if (baseImg.bitmap.width > 300) {
+      baseImg.resize(300, Jimp.AUTO, Jimp.RESIZE_BICUBIC);
+    }
+
     const rendered = await baseImg.getBufferAsync(Jimp.MIME_PNG);
     fs.writeFileSync(renderPath, rendered);
     return rendered;
