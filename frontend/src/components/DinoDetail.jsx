@@ -64,20 +64,20 @@ function StatRow({ def, value, levels }) {
 
   return (
     <div className="grid items-center gap-1.5"
-         style={{ gridTemplateColumns: '1.2rem 3.8rem 1fr 4.5rem 2rem' }}>
-      <span className="text-xs text-center leading-none">{def.icon}</span>
-      <span className="text-[11px] text-slate-400 truncate">{def.label}</span>
+         style={{ gridTemplateColumns: '1.3rem 4.2rem 1fr 5rem 2.2rem' }}>
+      <span className="text-sm text-center leading-none">{def.icon}</span>
+      <span className="text-[12px] text-slate-400 truncate">{def.label}</span>
       <div className="stat-bar-track">
         <div className="stat-bar-fill" style={{ width: `${pct}%`, backgroundColor: def.color }} />
       </div>
 
       <div className="flex items-center justify-end">
-        <span className="text-[11px] font-semibold text-slate-300 font-mono tabular-nums">{display}</span>
+        <span className="text-[13px] font-semibold text-slate-300 font-mono tabular-nums">{display}</span>
       </div>
       <div className="flex items-center justify-end">
         {hasPoints ? (
           <Tooltip text={`Estimated total stat points: ${totalPts}`} direction="up">
-            <span className="px-1.5 py-0.5 bg-sky-500/20 text-sky-300 rounded text-[11px] font-bold leading-none border border-sky-500/30 tabular-nums cursor-help">
+            <span className="px-1.5 py-0.5 bg-sky-500/20 text-sky-300 rounded text-[12px] font-bold leading-none border border-sky-500/30 tabular-nums cursor-help">
               {totalPts}
             </span>
           </Tooltip>
@@ -150,10 +150,10 @@ function ColorTile({ index, hex, regionName }) {
 /* ── 2×2 info badge ───────────────────────────────────────────────── */
 function Badge({ value, label, sub, color = 'text-slate-200', tooltip, direction = 'down' }) {
   const inner = (
-    <div className="bg-ark-dark rounded-xl p-2.5 text-center h-full">
-      <p className={`text-lg font-bold leading-none ${color}`}>{value}</p>
-      <p className="text-[9px] text-slate-500 uppercase tracking-widest mt-1.5 font-semibold">{label}</p>
-      {sub && <p className="text-[9px] text-slate-600 mt-1 leading-tight">{sub}</p>}
+    <div className="bg-ark-dark rounded-xl p-2 text-center h-full">
+      <p className={`text-sm font-bold leading-none ${color}`}>{value}</p>
+      <p className="text-[9px] text-slate-500 uppercase tracking-widest mt-1 font-semibold">{label}</p>
+      {sub && <p className="text-[9px] text-slate-600 mt-0.5 leading-tight">{sub}</p>}
     </div>
   );
   if (tooltip) {
@@ -242,7 +242,7 @@ export default function DinoDetail({
       onClick={e => e.target === e.currentTarget && onClose()}
     >
       <div
-        className="modal-content bg-ark-panel border border-ark-border rounded-2xl w-full max-w-5xl flex flex-col shadow-2xl overflow-hidden"
+        className="modal-content bg-ark-panel border border-ark-border rounded-2xl w-full max-w-3xl flex flex-col shadow-2xl overflow-hidden"
         style={{ maxHeight: '90vh' }}
       >
         {/* ── Header ─────────────────────────────────────────────── */}
@@ -285,11 +285,11 @@ export default function DinoDetail({
         <div className="flex flex-row flex-1 overflow-hidden min-h-0">
 
           {/* ── Left column ─────────────────────────────────────────── */}
-          <div className="w-[38%] flex-shrink-0 flex flex-col border-r border-ark-border overflow-hidden">
+          <div className="w-[48%] flex-shrink-0 flex flex-col border-r border-ark-border overflow-hidden">
 
             {/* Image */}
             <div className="flex-shrink-0 flex items-center justify-center"
-                 style={{ height: '185px', background: 'radial-gradient(ellipse at 50% 60%, #252b4a 0%, #0f1220 100%)' }}>
+                 style={{ height: '240px', background: 'radial-gradient(ellipse at 50% 60%, #252b4a 0%, #0f1220 100%)' }}>
               {!imgError ? (
                 <img src={`/api/render/${dino.id}`} alt={dino.species}
                      className="w-full h-full object-contain" onError={() => setImgError(true)} />
@@ -370,8 +370,8 @@ export default function DinoDetail({
           {/* ── Right column ──────────────────────────────────────────── */}
           <div className="flex-1 flex flex-col overflow-hidden min-w-0">
 
-            {/* 2×2 Badge grid */}
-            <div className="grid grid-cols-2 gap-1.5 px-3 py-2.5 border-b border-ark-border/50 flex-shrink-0">
+            {/* 1×4 Badge row */}
+            <div className="grid grid-cols-4 gap-1.5 px-3 py-2 border-b border-ark-border/50 flex-shrink-0">
               <Badge
                 value={mutations}
                 label="Mutations"
@@ -409,7 +409,7 @@ export default function DinoDetail({
                 <p className="section-label mb-0">Statistics</p>
               </div>
 
-              <div className="flex flex-col gap-1.5">
+              <div className="flex flex-col flex-1 justify-between">
                 {visibleStats.map(def => {
                   const value = dino.stats?.[def.key] || 0;
                   return (
