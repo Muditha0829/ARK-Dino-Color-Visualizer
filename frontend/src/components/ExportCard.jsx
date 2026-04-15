@@ -146,7 +146,7 @@ export default function ExportCard({ dino, colorMap, comboOverride }) {
             {hasPoints ? (
               <span style={{
                 display: 'inline-block',
-                padding: '3px 6px 5px',
+                padding: '1px 6px 5px',
                 background: 'rgba(14,165,233,0.20)', border: '1px solid rgba(14,165,233,0.30)',
                 borderRadius: '4px', fontSize: '12px', fontWeight: 700,
                 color: C.sky300, fontVariantNumeric: 'tabular-nums', lineHeight: '1.4',
